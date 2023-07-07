@@ -7,9 +7,16 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Introduction to GitHub
+# Git basic assignment-1  
 
-_Get started using GitHub in less than an hour._
+_These will give you practical experience with key Git commands, allowing you to understand and apply their functionality effectively. You can experiment with different repositories and scenarios to further solidify your understanding of version control with Git_
+
+**How to submit assignment?**
+Clone this repository. Try out assignment. Write the used command just in place of **Answer your commands**.
+Push the README.md file to your reposity and share with me. 
+Thanks! Happy gitting ::wave
+
+### Please submit this assignment before Wednesday the 12th July 2023
 
 </header>
 
@@ -21,43 +28,104 @@ _Get started using GitHub in less than an hour._
   Encourage users to open new tabs for steps!
 -->
 
-## Step 1: Create a branch
+**1. Initialize a Git Repository** 
+- Create a new directory on your local machine.
+- Open a terminal or command prompt in that directory.
+- Run the command `git init` to initialize a new Git repository.
 
-_Welcome to "Introduction to GitHub"! :wave:_
+### Answer your commands 
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
-<br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+**2. Commit Changes**
+   - Create a new file or modify an existing file in the repository.
+   - Use the command `git add <file>` to stage the changes.
+   - Run `git commit -m "Commit message"` to commit the changes to the repository.
 
-**What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
+### Answer your commands 
 
-**What is a branch?**: A _[branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ is a parallel version of your repository. By default, your repository has one branch named `main` and it is considered to be the definitive branch. Creating additional branches allows you to copy the `main` branch of your repository and safely make any changes without disrupting the main project. Many people use branches to work on specific features without affecting any other parts of the project.
 
-Branches allow you to separate your work from the `main` branch. In other words, everyone's work is safe while you contribute. For more information, see "[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
+**3. Git Commit**
 
-**What is a profile README?**: A _[profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ is essentially an "About me" section on your GitHub profile where you can share information about yourself with the community on GitHub.com. GitHub shows your profile README at the top of your profile page. For more information, see "[Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
+   - Create a new repository on a hosting service like GitHub or GitLab.
+   - Clone the repository to your local machine using `git clone <repository-url>`.
+   - Create a new file or modify an existing file in the repository.
+   - Stage the changes using `git add <file>` or `git add .` to stage all changes.
+   - Commit the changes using `git commit -m "Commit message"`.
+### Answer your commands 
 
-![profile-readme-example](/images/profile-readme-example.png)
 
-### :keyboard: Activity: Your first branch
+**4. Branching**
 
-1. Open a new browser tab and navigate to your newly made repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-2. Navigate to the **< > Code** tab in the header menu of your repository.
+   - Create a new branch using `git branch <branch-name>`.
+   - Switch to the new branch with `git checkout <branch-name>`.
+   - Make some changes and commit them on the new branch.
 
-   ![code-tab](/images/code-tab.png)
 
-3. Click on the **main** branch drop-down.
+### Answer your commands 
 
-   ![main-branch-dropdown](/images/main-branch-dropdown.png)
+**5. Git Branch**
 
-4. In the field, enter a name for your branch: `my-first-branch`.
-5. Click **Create branch: my-first-branch** to create your branch.
+   - Clone or fork a repository that has multiple branches.
+   - Use `git branch` to view all available branches and identify the current branch.
+   - Create a new branch using `git branch <new-branch-name>`.
+   - Switch to the newly created branch using `git checkout <new-branch-name>`.
+   - Make changes, commit them, and push the branch to the remote repository.
 
-   ![create-branch-button](/images/create-branch-button.png)
+### Answer your commands 
 
-   The branch will automatically switch to the one you have just created.
-   The **main** branch drop-down bar will reflect your new branch and display the new branch name.
 
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+**6. Merging**
+
+   - Switch back to the main branch using `git checkout main`.
+   - Merge the changes from the branch using `git merge <branch-name>`.
+   - Resolve any conflicts if necessary and commit the merge.
+
+### Answer your commands 
+
+**7. Git Merge**
+
+   - Clone or fork a repository that has multiple branches.
+   - Switch to a branch where you want to merge changes, such as the main branch.
+   - Use `git merge <source-branch>` to merge the changes from another branch into the current branch.
+   - Resolve any conflicts that arise during the merge.
+   - Commit the merge changes once conflicts are resolved.
+
+### Answer your commands 
+
+**8. Git Rebase**
+
+   - Clone or fork a repository with multiple commits on a branch.
+   - Switch to the branch where you want to perform the rebase.
+   - Use `git rebase <upstream-branch>` to rebase the current branch into another branch.
+   - Resolve conflicts, if any, that occur during the rebase process.
+   - Commit the changes after resolving conflicts.
+ 
+### Answer your commands 
+
+**9. Remote Repository**
+
+   - Create a new repository on a hosting service like GitHub or GitLab.
+   - Link the local repository to the remote repository using `git remote add origin <remote-url>`.
+   - Push the local repository to the remote using `git push -u origin main`.
+
+
+### Answer your commands 
+
+**10. Pulling Changes**
+
+   - Make changes to the repository from another location or branch.
+   - Fetch the latest changes from the remote using `git fetch`.
+   - Merge the changes into your local branch using `git merge origin/main`.
+
+
+### Answer your commands 
+
+**11. Git Ignore**
+
+   - Create a `.gitignore` file in the root of your repository.
+   - Add files, directories, or patterns to ignore, such as `*.log` or `/build/`.
+
+
+### Answer your commands 
 
 <footer>
 
@@ -66,10 +134,20 @@ Branches allow you to separate your work from the `main` branch. In other words,
   Add a link to get support, GitHub status page, code of conduct, license link.
 -->
 
----
+Help | Resource : 
 
-Get help: [Post in our discussion board](https://github.com/skills/.github/discussions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+**Reference book:**
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+https://git-scm.com/docs
+ 
+ **Cheat sheet**
+ 
+https://training.github.com/downloads/bn_BD/github-git-cheat-sheet
+
+ **Cheat sheet visual**
+
+https://ndpsoftware.com/git-cheatsheet.html
 
 </footer>
+
+
