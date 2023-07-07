@@ -12,9 +12,12 @@
 _These will give you practical experience with key Git commands, allowing you to understand and apply their functionality effectively. You can experiment with different repositories and scenarios to further solidify your understanding of version control with Git_
 
 **How to submit assignment?**
+
 Clone this repository. Try out assignment. Write the used command just in place of **Answer your commands**.
+
 Push the README.md file to your reposity and share with me. 
-Thanks! Happy gitting ::wave
+
+Thanks! Happy gitting :)
 
 ### Please submit this assignment before Wednesday the 12th July 2023
 
